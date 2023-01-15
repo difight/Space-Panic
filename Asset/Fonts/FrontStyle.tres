@@ -1,0 +1,10 @@
+[gd_resource type="DynamicFont" load_steps=2 format=2]
+
+[sub_resource type="DynamicFontData" id=1]
+resource_local_to_scene = true
+override_oversampling = 10.0
+font_path = "res://Asset/Fonts/Old-Soviet.otf"
+
+[resource]
+size = 12
+font_data = SubResource( 1 )

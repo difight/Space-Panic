@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/electroSwitch.mp3-8f3c52110bc7f5d8f923863c06387985.mp3str"
+
+[deps]
+
+source_file="res://Asset/Sound/electroSwitch.mp3"
+dest_files=[ "res://.import/electroSwitch.mp3-8f3c52110bc7f5d8f923863c06387985.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
