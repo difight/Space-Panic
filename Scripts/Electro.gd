@@ -36,9 +36,11 @@ func CheckToggleSwitch(playSound = true):
 	if self.orange:
 		orangeSwitcher.find_node("ElectroOn").visible = true
 		orangeSwitcher.find_node("ElectroOff").visible = false
+		Global.onElectroAll = true
 	else:
 		orangeSwitcher.find_node("ElectroOn").visible = false
 		orangeSwitcher.find_node("ElectroOff").visible = true
+		Global.onElectroAll = false
 	if self.purpule:
 		purpuleSwitcher.find_node("ElectroOn").visible = true
 		purpuleSwitcher.find_node("ElectroOff").visible = false
